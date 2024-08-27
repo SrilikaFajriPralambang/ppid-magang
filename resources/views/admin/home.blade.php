@@ -74,7 +74,7 @@
         <a href="#" class="text-black hover:text-[#4477ce]">OPEN DATA</a>
         <a href="#" class="text-black hover:text-[#4477ce]">KONTAK</a>
         <a href="#" class="text-black hover:text-[#4477ce]">COVID-19</a>
-        <button onclick="window.location.href='login.html'" class="border-2 border-[#4477ce] text-black px-4 py-2 rounded-lg hover:bg-[#4477ce] hover:text-white transition-colors">Login</button>
+        <button onclick="window.location.href='/admin/login'" class="border-2 border-[#4477ce] text-black px-4 py-2 rounded-lg hover:bg-[#4477ce] hover:text-white transition-colors">Login</button>
       </nav>
     </div>
   </header>

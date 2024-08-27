@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('information_checkboxes', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('information_id')->constrained()->onDelete('cascade');
+            // $table->foreignId('information_id')->constrained()->onDelete('cascade');
             $table->string('label');
             $table->boolean('checked')->default(false);
             $table->timestamps();
